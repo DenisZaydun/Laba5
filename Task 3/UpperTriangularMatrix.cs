@@ -13,6 +13,7 @@ namespace Task_3
             matrixSize = int.Parse(Console.ReadLine());
             matrix = new double[matrixSize, matrixSize];
 
+            Console.WriteLine("Почніть вводити матрицю: ");
             for (int i = 0; i < matrixSize; i++)
             {
                 for (int j = 0; j < matrixSize; j++)

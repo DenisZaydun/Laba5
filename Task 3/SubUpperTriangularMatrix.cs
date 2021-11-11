@@ -10,13 +10,11 @@ namespace Task_3
     {
         public override double Determinant(double[,] input)
         {
-            double result = 0;
-
+            double result = 1d;
             for (int i = 0; i < matrixSize; i++)
             {
-                result *= matrix[i, i];
+                result = result * input[i, i];
             }
-
             return result;
         }
     }
