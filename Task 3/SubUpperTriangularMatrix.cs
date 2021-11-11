@@ -14,7 +14,7 @@ namespace Task_3
 
             for (int i = 0; i < matrixSize; i++)
             {
-                result =+ matrix[i, i];
+                result *= matrix[i, i];
             }
 
             return result;
